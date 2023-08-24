@@ -1,0 +1,71 @@
+body{
+    background-color: #F1F0F2;
+}
+.heading{
+    font-family: 'Titillium Web', sans-serif;
+}
+.sub-heading{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* vh stands for viewport height */
+    border-radius: 7px;;
+    border: none;
+    
+}
+form {
+    width: 25%; /* adjust this value to control the form's width */
+    background-color: #D9D9D9;
+    padding: 30px 15px;;
+    border-radius: 7px;;
+    border: none;
+  }
+.label{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    margin-top: 15px;
+}
+.input-form{
+    border-radius: 7px;
+    margin-top: 10px;;
+    border:none;
+    width: 150px;
+    transition: all .3s;
+}
+.input-form:focus{
+    width: 180px;
+}
+.input-form:hover{
+    width: 180px;
+}
+.submit{
+    margin-top: 10px;
+    border: none;
+    border-radius:4px;
+    padding: 5px 15px;
+    transition: all .4s;
+}
+.submit:hover{
+    padding: 5px 20px;
+}
+.para{
+    margin-top: 15px;
+}
+.dropdown{
+    margin-top: 30px;
+}
+.msg{
+    font-family: 'Raleway', sans-serif;
+}
+
+.text{
+    background: rgba(220,220,220,.5);
+    width: 25%
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Titillium+Web:wght@200&display=swap');
