@@ -66,6 +66,25 @@ form {
     background: rgba(220,220,220,.5);
     width: 25%
 }
+#margining{
+    margin-top: 70px;
+}
+.thanks {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;;
+    width: 50%;
+    height: 50%;
+    /* background-color: red; */
+    margin-top: 5%;    
+    /* position: absolute; */
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    /* margin: auto; */
+
+}
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Titillium+Web:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Titillium+Web:wght@200&display=swap');
